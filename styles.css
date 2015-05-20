@@ -1,0 +1,122 @@
+body {
+  color: #222222;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background: #f4efeb;
+  margin: 0;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {  
+  padding: 6em 0;
+  background-image: url('https://download.unsplash.com/uploads/141327328038701afeede/eda0fb7c');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #948C7F;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #fff;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 8em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #3C7349;
+  text-shadow: 3px 4px 5px #000;
+}
+
+.bottom-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 10px -4px black;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin: 5em auto 0;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  line-height: 1.5em;
+}
+
+.questions-section > h2 {
+  color: #0f770f;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 2em 0 1em 0; 
+}
+
+.content-footer {
+  margin-top: 5em;
+  padding: 4em 0;
+  background: #828e8a;
+}
+
+.content-footer > p {
+  color: #fff;
+  font-size: 1em;
+}
+
+.social {
+  padding: 0;
+  list-style: none;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #093500;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: .05em;
+}
+
+a:hover {
+  color: #ffa100;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 4em;
+  }
+  .introduction-section,
+  .location-section,
+  .questions-section {
+    margin: 3em 1em 0;
+  }
+  .social li {
+    display: list-item;
+    padding: .5em;
+  }
+  footer {
+    font-size: .95em;
+  }
+}
